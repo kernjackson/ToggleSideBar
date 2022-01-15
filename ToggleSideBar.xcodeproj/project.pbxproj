@@ -24,6 +24,7 @@
 		EF4316832793354F00DAEBBB /* ToggleSideBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToggleSideBar.entitlements; sourceTree = "<group>"; };
 		EF431689279340F200DAEBBB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		EF43168B2793415500DAEBBB /* SideBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarButton.swift; sourceTree = "<group>"; };
+		EF43168D2793429400DAEBBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +41,9 @@
 		EF43166E2793354D00DAEBBB = {
 			isa = PBXGroup;
 			children = (
-				EF4316792793354D00DAEBBB /* ToggleSideBar */,
+				EF43168D2793429400DAEBBB /* README.md */,
 				EF4316782793354D00DAEBBB /* Products */,
+				EF4316792793354D00DAEBBB /* ToggleSideBar */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +58,13 @@
 		EF4316792793354D00DAEBBB /* ToggleSideBar */ = {
 			isa = PBXGroup;
 			children = (
-				EF43167A2793354D00DAEBBB /* ToggleSideBarApp.swift */,
-				EF43167C2793354D00DAEBBB /* ContentView.swift */,
-				EF43167E2793354F00DAEBBB /* Assets.xcassets */,
 				EF4316832793354F00DAEBBB /* ToggleSideBar.entitlements */,
-				EF4316802793354F00DAEBBB /* Preview Content */,
+				EF43167C2793354D00DAEBBB /* ContentView.swift */,
 				EF431689279340F200DAEBBB /* ListView.swift */,
 				EF43168B2793415500DAEBBB /* SideBarButton.swift */,
+				EF43167A2793354D00DAEBBB /* ToggleSideBarApp.swift */,
+				EF43167E2793354F00DAEBBB /* Assets.xcassets */,
+				EF4316802793354F00DAEBBB /* Preview Content */,
 			);
 			path = ToggleSideBar;
 			sourceTree = "<group>";
