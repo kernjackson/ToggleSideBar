@@ -11,6 +11,8 @@
 		EF43167D2793354D00DAEBBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43167C2793354D00DAEBBB /* ContentView.swift */; };
 		EF43167F2793354F00DAEBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF43167E2793354F00DAEBBB /* Assets.xcassets */; };
 		EF4316822793354F00DAEBBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4316812793354F00DAEBBB /* Preview Assets.xcassets */; };
+		EF43168A279340F200DAEBBB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF431689279340F200DAEBBB /* ListView.swift */; };
+		EF43168C2793415500DAEBBB /* SideBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43168B2793415500DAEBBB /* SideBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EF43167E2793354F00DAEBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4316812793354F00DAEBBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF4316832793354F00DAEBBB /* ToggleSideBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToggleSideBar.entitlements; sourceTree = "<group>"; };
+		EF431689279340F200DAEBBB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EF43168B2793415500DAEBBB /* SideBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EF43167E2793354F00DAEBBB /* Assets.xcassets */,
 				EF4316832793354F00DAEBBB /* ToggleSideBar.entitlements */,
 				EF4316802793354F00DAEBBB /* Preview Content */,
+				EF431689279340F200DAEBBB /* ListView.swift */,
+				EF43168B2793415500DAEBBB /* SideBarButton.swift */,
 			);
 			path = ToggleSideBar;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF43168C2793415500DAEBBB /* SideBarButton.swift in Sources */,
 				EF43167D2793354D00DAEBBB /* ContentView.swift in Sources */,
 				EF43167B2793354D00DAEBBB /* ToggleSideBarApp.swift in Sources */,
+				EF43168A279340F200DAEBBB /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

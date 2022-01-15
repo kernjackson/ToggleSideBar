@@ -8,10 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var showSideBar: Bool = true
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+        Group {
+            switch showSideBar {
+            case true:  show
+            case false: hide
+            }
+        }
+        .toolbar {
+            SideBarButton(show: $showSideBar)
+        }
     }
+
+    var show: some View {
+        NavigationView {
+            ListView()
+            ListView()
+        }
+    }
+
+    var hide: some View {
+        ListView()
+    }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

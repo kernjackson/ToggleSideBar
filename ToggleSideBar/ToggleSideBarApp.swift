@@ -13,5 +13,8 @@ struct ToggleSideBarApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            SidebarCommands()
+        }
     }
 }
